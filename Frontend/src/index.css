@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+*{
+  margin:0;
+  padding:0;
+}
+/* navlink customize */
+
+header nav .active{
+  background-color: rgb(30 41 59);
+color: rgb(14 165 233);
+  transition: all 0.5s;
+
+
+}
+header nav .navlink{
+  margin: 0px 12px;
+}
+.viewer{
+  transition: all 0.5s ease-out;
+}
+
+
+/* media query */
+.home_lg_text_p{
+  color:white !important;
+}
+.home_lg_text{
+  background: linear-gradient(-45deg,  rgb(11, 117, 255), rgb(31, 173, 255));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+.home_lg_text_dark{
+  background: linear-gradient(-45deg, rgb(45, 143, 255), rgb(189, 48, 255), rgb(11, 117, 255), rgb(31, 173, 255));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* cards effect */
+
+
+.shihab-ai{
+  background: linear-gradient(-45deg,  rgb(11, 117, 255), rgb(31, 173, 255));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* end cards effcet */
+
+
+.top-content{
+  transform:translate(-50% , -50%)
+}
+
+/* admin link */
+
+.slide-btn .active{
+  background : "red";
+}
+.nav-blur{
+background: rgba(0, 0, 0, .1);
+
+}
+.mob-navlink .navlink{
+font-size: 55px;
+}
+.mob-navlink .active{
+  color:aqua;
+}.slider .arrow-slider{
+  position: absolute;
+  top: 50%;
+  right: -40px;
+  transform: translate(-50%, -50%);
+  font-size: 23px;
+  height: 50px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+
+}
+.outlet {
+  transition: all .5s ease-in-out;
+}
+.outlet .active-slider{
+  transition: 1s ease-in-out;
+}
+.active-menu{
+  transition:  0.6s ease-in-out ;
+  overflow: hidden;
+}.not-menu .menus{
+  visibility: hidden;
+  width: 0;
+  height: 0;
+transition:  1s;
+  overflow: hidden;
+}
+.active-menu .menus{
+visibility: visible;
+transition:  0.5s;
+height: auto;
+width: auto;
+} .menus .active li{
+  color: rgb(114, 180, 255);
+
+}
+
+
+.blog-container::-webkit-scrollbar-track{
+    background: #030627;
+  }
+  .blog-container::-webkit-scrollbar{
+    width:10px;
+    border-radius: 30px;
+
+  }
+  .blog-container::-webkit-scrollbar-thumb{
+    background: linear-gradient(-45deg, rgb(48, 48, 255), rgb(137, 11, 255));
+    border-radius: 30px;
+  }
+  .jodit-react-container{
+    background:  #030627 !important;
+     background-color: #030627;
+  }
+
+  ::-webkit-scrollbar{
+    width:10px;
+    border-radius: 30px;
+  } ::-webkit-scrollbar-thumb{
+    background: linear-gradient(-45deg, rgb(48, 48, 255), rgb(137, 11, 255));
+    border-radius: 30px;
+  }
+  /* ----------------------------- */
+
+
+  /* ------------------------------------ */
+
+
+  .website .active{
+    color: rgba(235, 255, 59, 0.877);
+  }
+
+  .css-b62m3t-container{
+    background: transparent;
+  }
+.linkes .active{
+  color: rgba(235, 255, 59, 0.877);
+  font-weight: bold;
+  transition:  all 0.7s;
+}
+.ese-anim{
+  animation-name: ese;
+  animation-duration: 0.9s;
+  transition: all 0.9s;
+}
+/* remote--------- */
+.catagory-cont .active{
+  padding: 6px 12px ;
+  border-radius: 30px;
+  background-color: white;
+  color: #030627;
+  font-weight: 700;
+}
+@keyframes ese{
+  0%{
+    opacity: 0;
+  }
+  50%{
+    opacity: 5;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+.geo .active button{
+  background-color: white;
+  color: #030627;
+}
