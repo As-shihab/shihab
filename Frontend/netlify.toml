@@ -3,9 +3,12 @@
 base = "Frontend"
 command = "npm install && npm run build"
 publish = "Frontend/build"
-   
 
+   
 [[redirects]]
 from="/*"
 to="/index.html"
 status= 200
+
+[functions]
+directory = "Frontend/functions"
