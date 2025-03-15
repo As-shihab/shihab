@@ -1,7 +1,10 @@
 [build]
-base = "shihab"  # Go inside the Frontend directory
+base = "Frontend"  # Go inside the Frontend directory
 command = "npm install && npm run build"
 publish = "build"  # Make sure this is correct
+
+[functions]
+directory = "functions"
 
 [[redirects]]
 from="/*"
