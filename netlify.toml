@@ -3,10 +3,6 @@ base = "Frontend"  # Go inside the Frontend directory
 command = "npm install && npm run build"
 publish = "Frontend/build"  # Make sure this is correct
 
-[functions]
-directory = "Frontend/functions"
-
-
 [[redirects]]
 from="/*"
 to="/index.html"
