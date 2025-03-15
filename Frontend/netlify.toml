@@ -1,14 +1,14 @@
-
 [build]
-base = "Frontend"
+base = "Frontend"  # Go inside the Frontend directory
 command = "npm install && npm run build"
-publish = "Frontend/build"
+publish = "Frontend/build"  # Make sure this is correct
 
-   
+[functions]
+directory = "Frontend/functions"
+
+
 [[redirects]]
 from="/*"
 to="/index.html"
 status= 200
 
-[functions]
-directory = "Frontend/functions"
